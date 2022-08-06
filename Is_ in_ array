@@ -1,0 +1,23 @@
+import java.util.Scanner;
+import java.lang.Math;
+public class isinarray{
+public static void main(String[] args)
+{
+    float [] marks = {15.2f,15.2f,35.5f};
+    float num = 35.5f ;
+    // it will be in int 
+    boolean isinarray = false ;
+    for(float i:marks){
+        if(num == i){
+            isinarray = true ;
+            break;
+        }
+    }  
+    if(isinarray){
+        System.out.println("it is in given array");
+    }
+    else{ 
+        System.out.println("it is not in given array");
+    }
+}
+}
